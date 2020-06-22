@@ -25,12 +25,12 @@
     <section>
         <p>
             The URL of the deployed application
-            <a href="">The URL of the deployed application</a>
+            <a href="https://lizetteleon14.github.io/Workday-Scheduler/">The URL of the deployed application</a>
         </p>
     </section>
     <section>
         <p>
             The URL of the GitHub repository 
-            <a href="">The URL of the Git</a>
+            <a href="https://github.com/lizetteleon14/Workday-Scheduler">The URL of the Git</a>
         </p>
     </section>
