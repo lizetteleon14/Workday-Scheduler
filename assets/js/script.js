@@ -48,4 +48,41 @@ $(".saveBtn").click(function() {
     renderText ();
 })
 
+// use JSON to save the text at the given hour it is entered as a string in local storage
+function renderText () {
+    var save9entry = JSON.parse(localStorage.getItem("9:00 am"));
+    $("#9").val("");
+    $("#9").val(save9entry);
+    
+    var save910ntry = JSON.parse(localStorage.getItem("10:00 am"));
+    $("#10").val("");
+    $("#10").val(save10entry);
+    
+    var save11entry = JSON.parse(localStorage.getItem("11:00 am"));
+    $("#11").val("");
+    $("#11").val(save11entry);
+    
+    var save12entry = JSON.parse(localStorage.getItem("12:00 pm"));
+    $("#12").val("");
+    $("#12").val(save12entry);
+    
+    var save1entry = JSON.parse(localStorage.getItem("1:00 pm"));
+    $("#1").val("");
+    $("#1").val(save1entry);
 
+    var save2entry= JSON.parse(localStorage.getItem("2:00 pm"));
+    $("#2").val("");
+    $("#2").val(save2entry);
+
+    var save3entry= JSON.parse(localStorage.getItem("3:00 pm"));
+    $("#3").val("");
+    $("#3").val(save3entry);
+
+    var save4entry = JSON.parse(localStorage.getItem("4:00 pm"));
+    $("#4").val("");
+    $("#4").val(save4entry);
+
+    var save5entry = JSON.parse(localStorage.getItem("5:00 pm"));
+    $("#5").val("");
+    $("#5").val(save5entry);
+}
